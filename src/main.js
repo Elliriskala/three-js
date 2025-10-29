@@ -16,6 +16,8 @@ function init() {
     1000,
   );
 
+  // model
+
   renderer = new THREE.WebGLRenderer();
   renderer.setSize(window.innerWidth, window.innerHeight);
   document.body.appendChild(renderer.domElement);
