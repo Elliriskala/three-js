@@ -34,8 +34,8 @@ function init() {
     });
 
   // Maisema
-  const loader = new GLTFLoader().setPath('/');
-  loader.load('landscape/landscape.glb', (gltf) => {
+  const loader = new GLTFLoader().setPath("landscape/");
+  loader.load('landscape.gltf', (gltf) => {
     const model = gltf.scene;
 
     scene.add(model);
